@@ -21,9 +21,9 @@ import javax.servlet.http.HttpServletResponse;
 
 		@Override
 		protected void doGet(HttpServletRequest request, HttpServletResponse response) 
-														 throws ServletException, IOException{ 
+										     throws ServletException, IOException{ 
 		
 			request.getRequestDispatcher("/WEB-INF/viewtemplate/login.jsp")
-				   										.forward(request, response);
+				   			                         .forward(request, response);
 	}//end doGet
 }//end class
